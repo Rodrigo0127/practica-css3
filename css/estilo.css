@@ -1,0 +1,148 @@
+@import url(https://fonts.googleapis.com/css?family=Glory);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=PT Serif);
+
+body{
+	background-color: #000000;
+	font-family: 'Glory', cursive;
+}
+
+.filtro1{
+	filter: grayscale(1);
+	margin-top: 10px;
+}
+.filtro2{
+	filter: contrast(2);
+	margin-top: 10px;
+}
+
+#contenedor{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+h1, h2{margin-top: 25px;
+	color: #ffffff;
+	
+	margin-bottom: 10px; 
+	text-align: left;
+	font-family: 'Montserrat';
+}
+#columna{
+	column-count: 2;
+	column-gap: 40px;
+	column-rule: 1px solid #f00;
+}
+#conejo {
+	border: 5px solid #ff4000;
+	border-radius: 150px;
+	width: 70%;
+}
+
+p{
+	color: #ffffff;
+	font-family: 'PT Serif';
+	
+}
+
+.ejercicio {
+		color: #ffffff;
+		
+		text-align: justify;
+		font-size: 20px;
+
+}
+
+
+
+.multifondo {
+	width: 960px;
+	height: 640px;
+
+	 background:
+       	  url(../img/avion2.png) left top no-repeat ,
+       	  url(../img/ollie.png) right bottom no-repeat,
+       	  url(../img/fondo.jpg) 0 0 no-repeat;
+
+
+
+}
+
+.transparencia, .sombra, .degradado {
+	width: 960px;
+	height: 640px;
+	background-color: green;
+}
+
+.normal{
+	color: rgb(200,200,200);
+	background-color: rgb(54,50,191);
+	font-size: 30px;
+}
+
+.bajo{
+	color: rgb(200,200,200);
+	background-color: rgba(54,50,191,0.75);
+	font-size: 35px;
+	
+}
+
+.medio{
+	color: rgb(200,200,200);
+	background-color: rgba(54,50,191,0.50);
+	font-size: 40px;
+}
+
+.alto{
+	color: rgb(200,200,200);
+	background-color: rgba(54,50,191,0.25);
+	font-size: 45px;
+}
+
+.transparencia{
+	height: 100%;
+}
+
+.degradado {
+	background: -moz-linear-gradient(top, #070778 , #eef20c);
+ 	background: -webkit-gradient(linear, 0 0, 0 100%, from(#070778),  to(#eef20c));
+ 	background: -o-linear-gradient(rgb(0,0,255),rgb(255,0,0));
+}
+
+#cajasombra{
+   background-color: #dddddd;
+   width: 300px;
+   padding: 10px;
+
+   
+   box-shadow: 5px 5px 0 #333333;
+   -webkit-box-shadow: 5px 5px 0 #333333;
+   -moz-box-shadow: 5px 5px 0 #333333;
+
+} 
+
+#sombraclara{
+   width: 200px;
+   padding: 10px;
+   background-color: #999999;
+   color: #ffffff;
+   margin-top: 20px;
+   box-shadow: 7px 7px 7px #cccccc;
+   -webkit-box-shadow: 7px 7px 7px #cccccc;
+   -moz-box-shadow: 7px 7px 7px #cccccc;
+  }
+
+  #sombraredondeada{
+   background-color: #e01414;
+   width: 400px;
+   padding: 10px;
+   margin-top:40px ;
+   -moz-border-radius: 7px;
+   -webkit-border-radius: 7px;
+   
+   box-shadow: 15px -10px 3px #ffffff;
+   -webkit-box-shadow: 15px -10px 3px #ffffff;
+   -moz-box-shadow: 15px -10px 3px #ffffff;
+} 
